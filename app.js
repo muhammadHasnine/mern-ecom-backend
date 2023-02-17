@@ -39,7 +39,7 @@ app.use("/api/v1", order);
 app.get('/',(req,res)=>{
   res.send(
       `
-      <h1>Shikkah Backend is working. Click <a href=${process.env.FRONTEND_URL}>here</a>to visit frontend.</h1>
+      <h1>Ecommerce Backend is working. Click <a href=${process.env.FRONTEND_URL}>here</a>to visit frontend.</h1>
       `
   )
 })
